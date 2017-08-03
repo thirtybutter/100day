@@ -1,0 +1,29 @@
+#nav-bar a:nth-child(5){background: url(../img/COMMON/minepagebright.png) no-repeat 43% -15%;}
+#nav-bar a:nth-child(5) span{color: #F64A4A;}
+/*顶部*/
+#title{width: 10rem;height: 5rem;background: #F64A4A;text-align: center;box-sizing: border-box;padding: 1rem;}
+#title #head{width: 2rem;height: 2rem;border: .04rem solid white;margin: 0 auto;border-radius:50%;background: url(../img/message/u=2600862994,2565094368&fm=214&gp=0.jpg) no-repeat 0 0/2rem 2rem;}
+#title .setting{width: .5rem;height: .5rem;background: url(../img/COMMON/setting.png) no-repeat 0 0/.5rem .5rem;position: absolute;right: .4rem;top: .7rem;}
+#title .tologin{position: absolute;left: .4rem;top: .7rem;text-decoration: none;font: .4rem/.5rem "微软雅黑";color: white;}
+#title p{font: .5rem/.5rem "微软雅黑";color: white;margin-top: .4rem;}
+#title>span{display: inline-block;font: .3rem/.3rem "微软雅黑";color: white;vertical-align: top;margin-top: .3rem;}
+/*个人信息*/
+#infomation{width: 10rem;height: 1rem;list-style: none;border-bottom: .01rem solid #9A9A9A;}
+#infomation li{width: 3.3rem;height: .6rem;float: left;font: .3rem/.6rem "微软雅黑";color: #F64A4A;text-align: center;margin-top: .2rem;}
+#infomation li~li{border-left: .01rem solid #9A9A9A;}
+/*黑框*/
+.blocker{width: 10rem;height: .2rem;background: #EEEEEE;}
+#container{width:10rem;height: 10.5rem;overflow-x: hidden;overflow-y: auto}
+#main{width: 10rem;height: auto;}
+#main li{list-style:none;width: 10rem;height: 1.51rem;}
+#main li a{display:inline-block;vertical-align:top;width: 8.5rem;height: 1.5rem;text-decoration: none;margin-left: 1.5rem;padding-left:.2rem;box-sizing: border-box;font: .45rem/1.5rem "微软雅黑";color: #333333;border-bottom: .01rem solid #9A9A9A;}
+#main .one li:nth-child(1){background: url(../img/mine/icon_mine_wallet@3x.png) no-repeat .35rem .25rem/.9rem .9rem;}
+#main .one li:nth-child(2){background: url(../img/mine/icon_mine_real-mane@3x.png) no-repeat .35rem .25rem/.9rem .9rem;}
+#main .one li:nth-child(3){background: url(../img/mine/icon_mine_coin@3x.png) no-repeat .35rem .25rem/.9rem .9rem;}
+#main .two li:nth-child(1){background: url(../img/mine/icon_mine_invite@3x.png) no-repeat .25rem .25rem/1.1rem 1rem;}
+#main .two li:nth-child(2){background: url(../img/mine/icon_mine_collection@3x.png) no-repeat .15rem .25rem/1.3rem 1rem;}
+#main .two li:nth-child(3){background: url(../img/mine/icon_mine_about@3x.png) no-repeat .15rem .25rem/1.3rem 1rem;}
+#main .two li:nth-child(4){background: url(../img/mine/icon_mine_introduce@3x.png) no-repeat .25rem .25rem/1.1rem 1rem;}
+#main .two li:nth-child(5){background: url(../img/mine/icon_mine_strategy@3x.png) no-repeat .25rem .25rem/1.1rem 1rem;}
+#main .two li:nth-child(6){background: url(../img/mine/icon_mine_detection@3x.png) no-repeat .15rem .25rem/1.3rem 1rem;}
+#main  li:last-child a{border-bottom: none;}

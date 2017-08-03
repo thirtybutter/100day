@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;}
+a{-webkit-tap-highlight-color: transparent;}
+body{overflow: hidden;}
+#status-bar{width: 10rem;height: .3rem;background: url(../img/COMMON/statusbar.png);background-size: 100% 100%;position: absolute;top: 0.1rem;left: 0;z-index: 20;}
+#status-bar-bg{width: 10rem;height: .5rem;background: linear-gradient(to bottom,rgba(0,0,0,.2),rgba(0,0,0,0));position: absolute;top: 0;left: 0;z-index: 10;}
+#nav-bar{width: 10rem;height: 1.3rem;background: #fff;border-top: .01rem solid #9A9A9A;position: absolute;bottom: 0;left: 0;font-size: 0;z-index: 999;box-shadow:0 0 .5rem rgba(0,0,0,.1);}
+#nav-bar a{display: inline-block;width: 2rem;height: 1.3rem;text-decoration: none;position: relative;vertical-align: top;}
+#nav-bar a span{font: .3rem/.3rem "微软雅黑";color: #282828;position: absolute;bottom: 6%;left: 33%;}
+#nav-bar a:nth-child(1){background: url(../img/COMMON/indexpage.png) no-repeat 45% -15%;}
+#nav-bar a:nth-child(2){background: url(../img/COMMON/exchangepage.png) no-repeat 42% -15%;}
+#nav-bar a:nth-child(3){background: url(../img/COMMON/releasepage.png) no-repeat 45% -15%;}
+#nav-bar a:nth-child(4){background: url(../img/COMMON/messagepage.png) no-repeat 45% -15%;}
+#nav-bar a:nth-child(5){background: url(../img/COMMON/minepage.png) no-repeat 40% -15%;}
+

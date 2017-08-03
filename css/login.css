@@ -1,0 +1,17 @@
+#title{width: 10rem;height: 6rem;background: #F64A4A;padding-top: 1.5rem;box-sizing: border-box;}
+#logo{width: 4rem;height: 3rem;background:url(../img/COMMON/logo_03.png) no-repeat;margin: 0 auto;background-size: 4rem 3rem;}
+#container{width: 10rem;height: 11.5rem;overflow: hidden;position: relative;}
+#move{width: 20rem;height: 11.5rem;position: absolute;}
+#move ul{width: 10rem;height: 11.5rem;list-style: none;float: left;box-sizing: border-box;padding-top: 2.3rem;}
+#move ul li{width: 7.5rem;height: 1.3rem;box-sizing: border-box;margin:0 auto 1rem;}
+#move ul .password{position: relative;}
+#move ul .password div{width: .6rem;height: .5rem;position:absolute;top:.4rem;right:.5rem;background-image: url(../img/login/闭眼.png);background-repeat: no-repeat;background-position: 50% 50%;background-size: .5rem .25rem;}
+/*#move ul img{width: .5rem;height: .5rem;position: absolute;top: .5rem;right: .5rem;}*/
+#move ul li input{width: 7.5rem;height: 1.3rem;box-sizing: border-box;border: none;outline: none;font: .4rem/1.3rem "微软雅黑";border-bottom: .01rem solid #F64A4A;padding-left: .3rem;vertical-align: top;background: transparent;}
+#move ul>a{text-decoration:none;display:block;width: 7rem;height: 1.2rem;box-sizing: border-box;margin:2rem auto .4rem;background: #F64A4A;border-radius: .8rem;text-align: center;font: .5rem/1.2rem "微软雅黑";color: white;}
+#move ul>p{width: 7rem;height: .8rem;text-align: center;font: .4rem/.8rem "微软雅黑";color: #333;margin:.2rem auto;}
+#move ul>p>a{text-decoration:none;display:block;width: 7rem;height: .8rem;text-align: center;color: #333;}
+#move #signout{padding-top: .8rem;}
+#move #signout a{margin:1.2rem auto 0.4rem;}
+#move #signout p{margin:1.2rem auto;}
+#move #signout p span{color: #F64A4A;}

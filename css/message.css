@@ -1,0 +1,32 @@
+#nav-bar a:nth-child(4){background: url(../img/COMMON/messagepagebright.png) no-repeat 45% -15%;}
+#nav-bar a:nth-child(4) span{color: #F64A4A;}
+/*顶部*/
+#title{width: 10rem;height: 1.8rem;background: #F64A4A;box-shadow: 0 0 .5rem rgba(0,0,0,.5);position: relative;z-index: 5;}
+#title p{width: 10rem;height: 1rem;position: absolute;bottom:.2rem;text-align: center;font: .45rem/1rem "微软雅黑";color: white;}
+/*选择*/
+#select{width: 10rem;height: 1.2rem;list-style: none;border-bottom: .01rem solid #CCCCCC;position: relative;}
+#select li{width: 5rem;height: 1.2rem;float: left;font: .4rem/1.2rem "微软雅黑";text-align: center;}
+#select .selectcurrent{color: #F64A4A;}
+#select div{width: 3rem;height:.05rem;background: #F64A4A;position: absolute;bottom: 0;left: 1rem;}
+/*内容*/
+#container{width: 10rem;height: 13.5rem;overflow: hidden;position: relative;}
+#move{width: 20rem;height: 13.5rem;position:absolute;}
+#move>div{width: 10rem;height: 13.5rem;float: left;position: relative;z-index: 1;}
+#move div ul{list-style: none;}
+#move div ul li{width: 10rem;height:1.5rem;background-color: white;}
+#move div ul li a{display:inline-block;vertical-align:top;width: 10rem;height: 1.5rem;text-decoration: none;box-sizing: border-box;position: relative;}
+#move div ul li a div:nth-child(1){float:left;width: 1.1rem;height:1.1rem;margin: .2rem;border-radius:50%;}
+#move div ul li a div:nth-child(2){float:right;width: 8.5rem;height:1.5rem;border-bottom: .01rem solid #CCCCCC;}
+#move div ul li a .name{width:8.5rem;font: .4rem/.9rem "微软雅黑";color: #333333;}
+#move div ul li a .paragraph{width:8.5rem;font: .35rem/.35rem "宋体";color: #666;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+#move div ul li a>span{font: .32rem/.32rem "微软雅黑";color: #999;vertical-align: top;position: absolute;right: .3rem;top: .3rem;}
+#move .message ul li:nth-child(1) a div:nth-child(1){background:#54aa49 url(../img/message/icon_receive_conversation@3x.png) no-repeat 50% 50%;background-size: .8rem .8rem;}
+#move .message ul li:nth-child(2) a div:nth-child(1){background:#54aa49 url(../img/message/icon_receive_conversation@3x.png) no-repeat 50% 50%;background-size: .8rem .8rem;}
+#move .message ul li:nth-child(3) a div:nth-child(1){background:#ffa800 url(../img/message/u=714711042,2499712521&fm=26&gp=0.jpg) no-repeat 50% 50%;background-size: 1.1rem 1.1rem;}
+#move .conversation ul li:nth-child(1) a div:nth-child(1){background:#ffa800 url(../img/message/u=714711042,2499712521&fm=26&gp=0.jpg) no-repeat 50% 50%;background-size: 1.1rem 1.1rem;}
+/*提示登录*/
+#alertbox{width:10rem;height: 14.7rem;position: absolute;left: 0;top: 1.8rem;z-index: 3;background: #EEEEEE;}
+#alertbox div{width: 7rem;height: 9rem;position: absolute;top: 2rem;left: 1.5rem;background: white;border-radius: .5rem;box-shadow: 0 0 .5rem rgba(0,0,0,.1);padding-top: 1.5rem;text-align: center;box-sizing: border-box;}
+#alertbox div p{height:1rem;font: .4rem/.8rem "微软雅黑";color: #AAAAAA;}
+#alertbox div p span{color: #F64A4A;}
+#alertbox div a{display:inline-block;vertical-align:center;width:4rem;height:1rem;font: .4rem/1rem "微软雅黑";background: #F64A4A;border-radius: .5rem;text-decoration: none;color: white;margin-top: 3.5rem;}

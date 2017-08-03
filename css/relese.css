@@ -1,0 +1,18 @@
+#nav-bar a:nth-child(3){background: url(../img/COMMON/releasepagebright.png) no-repeat 45% -15%;}
+#nav-bar a:nth-child(3) span{color: #F64A4A;}
+/*顶部*/
+#title{width: 10rem;height: 1.8rem;background: #F64A4A;box-shadow: 0 0 .5rem rgba(0,0,0,.5);position: relative;z-index: 1;}
+#title p{width: 10rem;height: 1rem;position: absolute;bottom:.2rem;text-align: center;font: .45rem/1rem "微软雅黑";color: white;}
+/*内容*/
+#container{width: 10rem;height: 14.7rem;overflow: hidden;position: relative;background: #f5f5f5;}
+#container ul{list-style: none;padding-top: .3rem;}
+#container ul li{width: 10rem;height: 1.3rem;border-bottom: .01rem solid #CCCCCC;background-color: white;background-repeat: no-repeat;background-position: 3% 50%;}
+#container ul li a{display:inline-block;vertical-align:top;width: 10rem;height: 1.3rem;text-decoration: none;box-sizing: border-box;padding: 0 .5rem 0 1.5rem;}
+#container ul li p{font: .45rem/1.3rem "微软雅黑";color: #333333;display: inline-block;vertical-align: top;}
+#container ul li span{font: .5rem/1.3rem "宋体";color: #333333;float: right;vertical-align: top;}
+#container .publish li:nth-child(1){background-image: url(../img/relese/icon_release_issue@3x.png);}
+#container .publish li:nth-child(2){background-image: url(../img/relese/icon_release_ongoing@3x.png);}
+#container .publish li:nth-child(3){background-image: url(../img/relese/icon_release_wait@3x.png);}
+#container .publish li:nth-child(4){background-image: url(../img/relese/icon_release_audit@3x.png);}
+#container .feedback li:nth-child(1){background-image: url(../img/relese/icon_release_effective@3x.png);}
+#container .feedback li:nth-child(2){background-image: url(../img/relese/icon_release_invalid@3x.png);}

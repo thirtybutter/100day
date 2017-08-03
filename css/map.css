@@ -1,0 +1,44 @@
+/*状态栏换色*/
+/*#status-bar{width: 10rem;height: .3rem;background: url(../img/COMMON/statusbar2.png);background-size: 100% 100%;position: absolute;top: 0.1rem;left: 0;opacity: .5;}*/
+/*标题栏*/
+#title{width: 10rem;height: 1.5rem;position: relative;text-align: center;border-bottom: .01rem solid #CCCCCC;background: #F64A4A;}
+#title .return{display:block;width: 1.3rem;height: .5rem;color:#F64A4A;position: absolute;bottom: 0.25rem;left: 0rem;border-right: 0.01rem solid #CCCCCC;background: url(../img/COMMON/返回.png) no-repeat 50% 0;background-size: .5rem .5rem;}
+#title ul{list-style: none;position: absolute;bottom: 0rem;left: 1.3rem;}
+#title ul li{width:2.5rem;height:1rem;float: left;font: 0.4rem/1rem "微软雅黑";color: #333;}
+#title ul .titlecurrent{color: #FFFFFF;}
+#title ul .selectbg{width: 1.5rem;height: .05rem;background: #F64A4A;position: absolute;bottom: 0;left: .25rem;}
+/*搜索栏*/
+#search {width: 10rem;height: 1.2rem;position: relative;border-bottom: .01rem solid #CCCCCC;text-align: center;background: #F64A4A;}
+#search input{width: 7.4rem;height: .8rem;border: none;outline: none;position: absolute;bottom: .2rem;left: .3rem;padding: 0 1rem;font: .4rem/.8rem "宋体";background: rgba(0,0,0,.2);color: white;border-radius: .4rem;}
+#search input::-webkit-input-placeholder { /* WebKit browsers */ color: #ccc;font: .4rem/.8rem "宋体";} 
+#search input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color: #ccc;font: .4rem/.8rem "宋体";} 
+#search input::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #CCCCCC;font: .4rem/.8rem "宋体";} 
+#search input:-ms-input-placeholder { /* Internet Explorer 10+ */ color: #CCCCCC;font: .4rem/.8rem "宋体";} 
+#search .close{width: .8rem;height: .8rem;background: url(../img/COMMON/icon_positioning_exit@3x.png) no-repeat .2rem .2rem;position: absolute;right: .5rem;top: .2rem;background-size: .4rem .4rem;display: none;z-index: 999;}
+#search .open{width: .8rem;height: .8rem;background: url(../img/COMMON/icon_search@3x.png) no-repeat .2rem .2rem;position: absolute;left: .5rem;top: .2rem;background-size: .4rem .4rem;z-index: 999;}
+/*内容*/
+#container{width: 9.2rem;height:15.1rem;overflow-x: hidden;overflow-y: auto;position: absolute;left:0;}
+#container::-webkit-scrollbar{width: 0;}
+/*包含当前,历史,热门,城市选择的移动用的*/
+#mover{position: relative;background: #eee;}
+/*当前,历史,热门*/
+#localtionhistory{width: 9rem;}
+#localtionhistory a{display:block;width:100%;height:100%;text-decoration: none;color: #333333;}
+#localtionhistory p{height:.8rem;font: .35rem/.8rem "微软雅黑";padding: 0 .3rem;color: #9A9A9A;}
+#localtionhistory div{width:2.6rem;height:.9rem;font: .4rem/.9rem "微软雅黑";background: #fff;margin-left:.3rem;border-radius: .2rem;text-align: center;}
+#localtionhistory ul,ol{list-style: none;width: 9.2rem;height: .9rem;overflow: hidden;}
+#localtionhistory ol{height: 2rem;}
+#localtionhistory ul li{width:2.8rem;height:.9rem;font: .4rem/.9rem "微软雅黑";background: #fff;margin:0 0 .2rem .2rem;border-radius: .1rem;float: left;text-align: center;}
+#localtionhistory ol li{width:2.8rem;height:.9rem;font: .4rem/.9rem "微软雅黑";background: #fff;margin:0 0 .2rem .2rem;border-radius: .1rem;float: left;text-align: center;}
+/*城市选择*/
+#citychoose{width: 9rem;}
+#citychoose ul li{font: .4rem/.9rem "微软雅黑";list-style:none;width: 9.2rem;height:.9rem;background: #E3E3E3;background: #fff;padding: 0 .3rem;box-sizing: border-box;border-bottom: .01rem solid #E3E3E3;}
+#citychoose ul li a{display:block;width:100%;height:100%;text-decoration: none;color: #333333;}
+#citychoose .initial{background: #eee;;color: #9A9A9A;}
+/*右侧abc字母选择栏*/
+#alphabet{width: .8rem;height: 15.1rem;position: absolute;right: 0;border-left: .01rem solid #ccc;}
+#alphabet ul {list-style: none;}
+#alphabet ul li{height: .62rem;width: .8rem;font: .3rem/.6rem "微软雅黑";text-align: center;color: #F64A4A;}
+#searchresult{width: 10rem;height: 0;background: #EEEEEE;position: absolute;bottom: 0;left: 0;z-index: 998;}
+#searchresult a{display:block;height:1rem;text-decoration: none;color: #333333;padding: 0 .3rem;background: #fff;font: .4rem/1rem "微软雅黑";border-bottom: 0.01rem solid #CCCCCC;z-index: 999;position: relative;}
+#searchresult p{height:1.5rem;color: #aaa;font: .45rem/1.5rem "宋体";text-align: center;}

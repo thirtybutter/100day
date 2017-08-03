@@ -1,0 +1,161 @@
+{
+  "map.html": {
+    "href": "map.html",
+    "resources": [
+      "js/jquery-3.2.1.min.js",
+      "js/size.js",
+      "js/china_area.js",
+      "js/map.js",
+      "css/status-nav.css",
+      "css/map.css"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "search.html": {
+    "href": "search.html",
+    "resources": [
+      "css/status-nav.css",
+      "css/search.css",
+      "js/jquery-3.2.1.min.js",
+      "js/size.js",
+      "js/data.js",
+      "js/search.js",
+      "img/index/>'\.png"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "login.html": {
+    "href": "login.html",
+    "resources": [
+      "js/jquery-3.2.1.min.js",
+      "js/size.js",
+      "js/login.js",
+      "img/login/í<.png",
+      "img/login/<[.png",
+      "css/status-nav.css",
+      "css/login.css"
+    ],
+    "refer": [
+      "mine.html"
+    ],
+    "priority": 0
+  },
+  "mine.html": {
+    "href": "mine.html",
+    "resources": [
+      "css/status-nav.css",
+      "css/mine.css",
+      "js/jquery-3.2.1.min.js",
+      "js/size.js"
+    ],
+    "refer": [
+      "login.html",
+      "index.html",
+      "exchange.html",
+      "relese.html",
+      "message.html",
+      "mine.html"
+    ],
+    "priority": 0
+  },
+  "chat.html": {
+    "href": "chat.html",
+    "resources": [
+      "css/status-nav.css",
+      "css/chat.css",
+      "js/jquery-3.2.1.min.js",
+      "js/size.js",
+      "js/chat.js",
+      "img/message/ .png",
+      "img/message/img/á.gif"
+    ],
+    "refer": [
+      "message.html"
+    ],
+    "priority": 0
+  },
+  "message.html": {
+    "href": "message.html",
+    "resources": [
+      "css/status-nav.css",
+      "css/message.css",
+      "js/jquery-3.2.1.min.js",
+      "js/size.js",
+      "js/message.js"
+    ],
+    "refer": [
+      "index.html",
+      "exchange.html",
+      "relese.html",
+      "message.html",
+      "mine.html",
+      "login.html",
+      "chat.html"
+    ],
+    "priority": 0
+  },
+  "relese.html": {
+    "href": "relese.html",
+    "resources": [
+      "css/status-nav.css",
+      "css/relese.css",
+      "js/jquery-3.2.1.min.js",
+      "js/size.js"
+    ],
+    "refer": [
+      "index.html",
+      "exchange.html",
+      "relese.html",
+      "message.html",
+      "mine.html"
+    ],
+    "priority": 0
+  },
+  "exchange.html": {
+    "href": "exchange.html",
+    "resources": [
+      "css/status-nav.css",
+      "css/exchange.css",
+      "js/jquery-3.2.1.min.js",
+      "js/size.js",
+      "js/exchange.js"
+    ],
+    "refer": [
+      "index.html",
+      "exchange.html",
+      "relese.html",
+      "message.html",
+      "mine.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/status-nav.css",
+      "css/index.css",
+      "js/jquery-3.2.1.min.js",
+      "js/size.js",
+      "js/data.js",
+      "js/index.js",
+      "img/COMMON/*˜-1.png",
+      "img/index/>'\.png"
+    ],
+    "refer": [
+      "map.html",
+      "search.html",
+      "index.html",
+      "exchange.html",
+      "relese.html",
+      "message.html",
+      "mine.html"
+    ],
+    "priority": 0
+  }
+}

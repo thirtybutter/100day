@@ -1,0 +1,27 @@
+/*顶部*/
+#title{width: 10rem;height: 1.8rem;background: #F64A4A;box-shadow: 0 0 .5rem rgba(0,0,0,.5);position: relative;z-index: 1;}
+#title p{width: 10rem;height: 1rem;position: absolute;bottom:.2rem;text-align: center;font: .45rem/1rem "微软雅黑";color: white;}
+#title a{display:inline-block;width: .5rem;height: .5rem;position: absolute;bottom: .45rem;left: .5rem;vertical-align: top;background: url(../img/COMMON/返回.png) no-repeat 0rem 0rem/.5rem .5rem;}
+/*内容*/
+#container{width:10rem;height: 16rem;position: relative;background: #EEEEEE;}
+.main{width: 10rem;height: 14.8rem;overflow-y: auto;overflow-x: hidden;background: #eee;box-sizing: border-box;}
+.main::-webkit-scrollbar{width:0px;}
+.main ul{list-style: none;}
+.main ul li{width: 10rem;min-height:1rem;box-sizing:border-box;padding:0 .2rem 0;height: auto;overflow: hidden;margin-top: .3rem;}
+.main ul li div{width: 1rem;height: 1rem;border-radius: 50%;overflow: hidden;}
+.main ul .fri div{background:white url(../img/message/u=1027042251,3341508513&fm=26&gp=0.jpg) no-repeat scroll 0rem 0rem/1rem 1rem;float: left;}
+.main ul .me div{background:white url(../img/message/u=2600862994,2565094368&fm=214&gp=0.jpg) no-repeat scroll 0px 0px/1rem 1rem;float: right;}
+.main ul li p{border-radius: .1rem;font: .4rem/.8rem "微软雅黑";margin:0 .3rem;padding: .1rem .3rem;position: relative;max-width: 7rem;height: auto;word-wrap:break-word;text-align: left;}
+.main ul .fri p{background-color: white;float: left;}
+.main ul .me p{background-color: royalblue;float: right;color: white;}
+.main ul li p span{display:inline-block;width: .2rem;height: .1rem;position: absolute;top: .1rem;}
+.main ul li p img{width: .6rem;height: .6rem;margin: .1rem 0;vertical-align: top;}
+.main ul .fri p span{left: -.15rem;border-radius:0 0 0 100%;border-bottom: .2rem solid white;}
+.main ul .me p span{right: -.15rem;border-radius:0 0 100% 0;border-bottom: .2rem solid royalblue;}
+#footer{width: 10rem;height:7.62rem;position: absolute;bottom: 0;left: 0;}
+.input{width: 10rem;height: 1.2rem;background-color: #EEEEEE;border-top: .01rem solid #CCCCCC;position: absolute;bottom: 0;left: 0;}
+.input img{width: .6rem;height: .6rem;float: left;margin: .3rem;}
+.input div{width: 1rem;height:.6rem;font: .3rem/.6rem "微软雅黑";margin: .3rem;float: left;vertical-align: top;border: .02rem solid #666;text-align: center;border-radius: .1rem;color: #666;}
+.input input{width: 5.2rem;height: .6rem;float: left;margin: .3rem;border-radius: .1rem;border-width: 0px;outline: none;padding:0 .2rem;box-sizing: border-box;font: .35rem/.6rem "微软雅黑";}
+.faces {width: 10rem;height: 6.4rem;border-top: .01rem solid #CCCCCC;position: absolute;top: 0;left: 0;display: none;background: #EEEEEE;}
+.faces img{width: .7rem;height: .7rem;float: left;vertical-align: top;}
