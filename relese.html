@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/status-nav.css"/>
+		<link rel="stylesheet" type="text/css" href="css/relese.css"/>
+	</head>
+	<body>
+		<!--状态栏-->
+		<div id="status-bar"></div>
+		<div id="status-bar-bg"></div>
+		<!--顶部-->
+		<div id="title"><p>发&nbsp;&nbsp;布</p></div>
+		<div id="container">
+			<ul class="publish">
+				<li><a href="#"><p>发布任务</p></a></li>
+				<li><a href="#"><p>进行中的任务</p><span>1 ></span></a></li>
+				<li><a href="#"><p>待提交的任务</p><span>1 ></span></a></li>
+				<li><a href="#"><p>待审核的任务</p><span>0 ></span></a></li>
+			</ul>
+			<ul class="feedback">
+				<li><a href="#"><p>审核有效的任务</p><span>1 ></span></a></li>
+				<li><a href="#"><p>审核无效的任务</p><span>0 ></span></a></li>
+			</ul>
+		</div>
+		<nav id="nav-bar">
+			<a href="index.html"><span>首页</span></a>
+			<a href="exchange.html"><span>兑换</span></a>
+			<a href="relese.html"><span>发布</span></a>
+			<a href="message.html"><span>信息</span></a>
+			<a href="mine.html"><span>我的</span></a>
+		</nav>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/size.js" ></script>
+		<script>
+			$("#container ul li").click(function(){
+				console.log($(this).index());
+			})
+		</script>
+	</body>
+</html>

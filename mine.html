@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/status-nav.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mine.css"/>
+	</head>
+	<body>
+		<!--导航栏-->
+		<div id="status-bar"></div>
+		<div id="status-bar-bg"></div>
+		<!--顶部-->
+		<div id="title">
+			<div id="head"></div>
+			<div class="setting"></div>
+			<a class="tologin" href="login.html">登录</a>
+			<p>admin</p>
+			<span>个人简介：BLIZZZZZZZZZZZZZZZZZZZZZZZZZARD</span>
+		</div>
+		<ul id="infomation">
+			<li>等级：  LV1</li>
+			<li>总赏金：  66.00元</li>
+			<li>诚信度：  15</li>
+		</ul>
+		<div id="container">
+			<div id="main">
+				<div class="blocker"></div>
+				<ul class="one">
+					<li><a href="">钱包</a></li>
+					<li><a href="">实名认证</a></li>
+					<li><a href="">赚币乐园</a></li>
+				</ul>
+				<div class="blocker"></div>
+				<ul class="two">
+					<li><a href="">邀请好友</a></li>
+					<li><a href="">我的收藏</a></li>
+					<li><a href="">关于平台</a></li>
+					<li><a href="">特权介绍</a></li>
+					<li><a href="">新手攻略</a></li>
+					<li><a href="">版本检测</a></li>
+				</ul>
+			</div>
+		</div>
+		<nav id="nav-bar">
+			<a href="index.html"><span>首页</span></a>
+			<a href="exchange.html"><span>兑换</span></a>
+			<a href="relese.html"><span>发布</span></a>
+			<a href="message.html"><span>信息</span></a>
+			<a href="mine.html"><span>我的</span></a>
+		</nav>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/size.js" ></script>
+		<script>
+			if(window.localStorage.getItem("account")){
+				$("#title p").text(localStorage.getItem("account"));
+				$(".tologin").text("已登录");
+			}else{
+				$("#title p").text("admin");
+				$(".tologin").text("登录");
+			}
+		</script>
+	</body>
+</html>
